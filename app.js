@@ -22,5 +22,3 @@ const bitcoinPrice = async () => {
  
 }
 
-
-// come back and a use the DOM to display to bitcoin price 

@@ -1,14 +1,12 @@
-
-// fetches the price of bitcoin in USD
-const bitcoinPrice2 = async () => { 
-    try {
-        const res = await axios.get('https://api.cryptonator.com/api/full/btc-usd')
-        console.log(res.data.ticker.price)
-    } catch (e) {
-        console.log('Oh no error!', e)
-    }
+function bitcoinPrice2() {
+    axios.get('https://api.coindesk.com/v1/bpi/currentprice/BTC.json')
+        .then(function (response) {
+            document.getElementById("btc_price").innerHTML = response.data.bpi.USD.rate_float;
+        })
+        .catch(function (error) {
+            console.log(error);
+        });
 }
- // display the price of bitcoin in html
 
- 
+
 

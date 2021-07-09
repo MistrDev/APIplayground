@@ -9,8 +9,17 @@
     <title>API playground</title>
 </head>
 <body>
+<!--show the price of bitcoin-->
+<div class="price">
+    <h1>Bitcoin price</h1>
+    <p>
+        <span class="btc">$<span id="btc_price">0.00</span></span>
+    </p>
+</div>
 
-<h1>Click For Current Bitcoin Price</h1>
+<button onclick="bitcoinPrice2()">Get price</button>
+
+
     <script src="app.js"></script>
 </body>
 </html>

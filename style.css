@@ -3,3 +3,18 @@ html{
     background-color: #176490;
 }
 
+
+body{
+    font-family:sans-serif;
+    background-color: #176490;
+    color: #FFFFFF;
+    margin: 0px;
+    padding: 0px;
+    font-size: 12px;
+    line-height: 1.5em;
+    text-align: center;
+    font-weight: bold;
+    font-style: normal;
+    font-variant: normal;
+}
+

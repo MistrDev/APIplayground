@@ -8,15 +8,6 @@ function bitcoinPrice() {
         });
 }
 
-function bitcoinPriceUpdate() {
-    setTimeout(bitcoinPrice, 1000);
-}
-
-function bitcoinPriceStart() {
-    bitcoinPriceUpdate();
-}
-
-bitcoinPriceStart();
 
 
 
